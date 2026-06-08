@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lamidi;Kevin;;;
+FN:Kevin Lamidi
+ORG:Klova Studio
+TITLE:Intégrateur IA
+TEL;TYPE=CELL,VOICE:+41767155059
+EMAIL;TYPE=WORK,INTERNET:studio@klovastudio.com
+URL:https://klovastudio.com
+ADR;TYPE=WORK:;;;;;;Suisse
+X-SOCIALPROFILE;TYPE=linkedin:https://ch.linkedin.com/in/kevin-lamidi-6810421ba
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/klova_studio
+NOTE:Carte de visite digitale — Klova Studio
+END:VCARD

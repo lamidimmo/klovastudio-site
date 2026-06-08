@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Kevin Lamidi — Klova Studio</title>
+  <meta name="description" content="Kevin Lamidi · Intégrateur IA · Klova Studio. Enregistrez mon contact." />
+  <meta name="theme-color" content="#064031" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="icon" href="apple-touch-icon.png" />
+  <!-- Open Graph (aperçu au partage) -->
+  <meta property="og:title" content="Kevin Lamidi — Klova Studio" />
+  <meta property="og:description" content="Intégrateur IA · Klova Studio" />
+  <meta property="og:image" content="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ---- Thème Klova (foncé "premium" par défaut) ---------------------
+       Pour la version vif : --bg:#059669 ; --bg2:#047857               */
+    :root {
+      --bg: #064031;
+      --bg2: #053528;
+      --accent: #10b981;
+      --text: #f0f7f3;
+      --muted: #8fd3b6;
+      --card: rgba(255, 255, 255, .06);
+      --line: rgba(255, 255, 255, .14);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', system-ui, -apple-system, Segoe UI, sans-serif;
+      min-height: 100svh;
+      color: var(--text);
+      background: radial-gradient(120% 80% at 50% -10%, var(--bg2), var(--bg) 70%);
+      display: flex; align-items: center; justify-content: center;
+      padding: 28px 18px; -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      width: 100%; max-width: 420px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 34px 26px 26px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .55);
+    }
+    .logo { height: 52px; width: auto; display: block; }
+    .hr { height: 1px; background: var(--line); margin: 22px 0; border: 0; }
+    .name { font-size: 30px; font-weight: 700; letter-spacing: -.02em; }
+    .role { font-size: 16px; color: var(--muted); margin-top: 4px; font-weight: 500; }
+    .save {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      margin-top: 26px; width: 100%; padding: 16px;
+      background: var(--accent); color: #04261d;
+      font-weight: 600; font-size: 16px;
+      border: 0; border-radius: 16px; text-decoration: none;
+      transition: transform .08s ease, filter .15s ease;
+    }
+    .save:active { transform: scale(.98); }
+    .links { margin-top: 14px; display: grid; gap: 10px; }
+    .links a {
+      display: flex; align-items: center; gap: 14px;
+      padding: 14px 16px; border-radius: 14px;
+      background: rgba(255, 255, 255, .05);
+      border: 1px solid var(--line);
+      color: var(--text); text-decoration: none; font-size: 15px; font-weight: 500;
+    }
+    .links a:active { background: rgba(255, 255, 255, .1); }
+    .links .ico { font-size: 18px; width: 22px; text-align: center; }
+    .links .sub { margin-left: auto; color: var(--muted); font-size: 13px; font-weight: 400; }
+    .qr { margin: 24px auto 6px; display: block; width: 150px; height: 150px;
+          background: #fff; padding: 10px; border-radius: 14px; }
+    .foot { text-align: center; color: var(--muted); font-size: 12px; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="logo" src="logo.png" alt="Klova" />
+    <hr class="hr" />
+    <div class="name">Kevin Lamidi</div>
+    <div class="role">Intégrateur IA · Klova Studio</div>
+
+    <a class="save" href="contact.vcf" download="Kevin-Lamidi.vcf">
+      <span>＋</span> Enregistrer mon contact
+    </a>
+
+    <nav class="links">
+      <a href="tel:+41767155059"><span class="ico">📞</span> Appeler <span class="sub">+41 76 715 50 59</span></a>
+      <a href="mailto:studio@klovastudio.com"><span class="ico">✉️</span> Email <span class="sub">studio@klovastudio.com</span></a>
+      <a href="https://www.instagram.com/klova_studio" target="_blank" rel="noopener"><span class="ico">📸</span> Instagram <span class="sub">@klova_studio</span></a>
+      <a href="https://ch.linkedin.com/in/kevin-lamidi-6810421ba" target="_blank" rel="noopener"><span class="ico">in</span> LinkedIn <span class="sub">Kevin Lamidi</span></a>
+    </nav>
+
+    <img class="qr" src="qr.png" alt="QR klovastudio.com" />
+    <div class="foot">klovastudio.com</div>
+  </main>
+</body>
+</html>
